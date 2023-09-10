@@ -1,9 +1,11 @@
-import Card from "./about";
+import Aboutus from "./about";
 import CustomBTN from "./CustomBTN";
 import Navbar from "./NavBar";
+import BackgroundVideo from "./customBgVideo";
 
 export {
-    Card,
+    Aboutus,
     CustomBTN,
-    Navbar
+    Navbar,
+    BackgroundVideo
 }

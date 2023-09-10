@@ -1,9 +1,9 @@
 import React from "react";
-import { CustomBTNProps } from "../Types";
+import { CustomBTNProps } from "../Types/Types";
 
-const CustomBTN = ({ CustomStyles, TextTitle }: CustomBTNProps) => {
+const CustomBTN = ({ CustomStyles, TextTitle, type }: CustomBTNProps) => {
     return (
-        <button className={`${CustomStyles}`}>
+        <button className={`${CustomStyles}`} type={`${type}`}>
             {TextTitle}
         </button>
     )
